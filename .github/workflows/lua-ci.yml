@@ -1,9 +1,12 @@
-name: C CI
+name: Lua CI
 
 on:
   push:
     branches: [ main, master ]
   pull_request:
+
+permissions:
+  contents: read
 
 jobs:
   build:
